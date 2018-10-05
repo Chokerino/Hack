@@ -40,10 +40,19 @@ html {
   background-color: rgba(0,0,0,0.8);
 }
 .page{
-  background-color:#f4f4f4;
-  margin: 20% auto;
-  width:70%;
+  background-color:#26E83F;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 35px;
+  margin: 10% auto;
+  width:100%;
   box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
   animation-name:resopen;
   animation-duration:1s;
+}
+.page .img{
+  width : 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: middle;
 }
