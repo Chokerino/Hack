@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Anton|Pacifico|Bangers|Rancho');
 @import url('https://fonts.googleapis.com/css?family=Rancho&effect=anaglyph|3d-float');
 @import url('https://fonts.googleapis.com/css?family=Rancho&effect=ice|3d-float');
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Permanent+Marker|Luckiest+Guy');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Permanent+Marker|Luckiest+Guy|Russo+One');
 html {
   background-color: #000000;
 }
@@ -41,7 +41,7 @@ html {
 }
 .page{
   background-color:#26E83F;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Russo One', sans-serif;
   font-size: 35px;
   margin: 10% auto;
   width:100%;
