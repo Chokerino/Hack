@@ -92,7 +92,7 @@ window.onclick = function(event) {
     }
 }
 
-var video = document.querySelector('iframe');
+var video = document.querySelectorAll('iframe');
 
 var result1 = document.getElementById("opt1");
 var dispc = document.getElementById("Resultr");
@@ -119,14 +119,14 @@ function out1(){
         dispc.style.display = 'block';
         window.addEventListener('click', outsideClick4);
         modal.style.display = "none";
-        var mytry = video.getAttribute('src');
+        var mytry = video[0].getAttribute('src');
          if(correct === 1) {
-         video.setAttribute ("src","https://www.youtube.com/embed/xz3PbpPR6DY?autoplay=1");
+         video[0].setAttribute ("src","https://www.youtube.com/embed/xz3PbpPR6DY?autoplay=1");
          }    else if(correct ===2) {
-         video.setAttribute ('src','https://www.youtube.com/embed/0HgNdPOZyvQ?autoplay=1');
+         video[0].setAttribute ('src','https://www.youtube.com/embed/0HgNdPOZyvQ?autoplay=1');
         }
         else
-          video.setAttribute ('src','https://www.youtube.com/embed/h3uBr0CCm58?autoplay=1');
+          video[0].setAttribute ('src','https://www.youtube.com/embed/h3uBr0CCm58?autoplay=1');
 
 }
 function out2(){
@@ -134,14 +134,14 @@ function out2(){
         dispi.style.display = 'block';
         window.addEventListener('click', outsideClick5);
         modal.style.display = "none";
-        var mytry = video.getAttribute('src');
+        var mytry = video[1].getAttribute('src');
          if(incorrect === 1) {
-         video.setAttribute ('src','https://www.youtube.com/embed/cVUbpTFkDdo?autoplay=1');
+         video[1].setAttribute ('src','https://www.youtube.com/embed/cVUbpTFkDdo?autoplay=1');
          }    else if(incorrect ===2) {
-         video.setAttribute ('src','https://www.youtube.com/embed/eVFd46qABi0?autoplay=1');
+         video[1].setAttribute ('src','https://www.youtube.com/embed/eVFd46qABi0?autoplay=1');
         }
         else
-          video.setAttribute ('src','https://www.youtube.com/embed/t-bq1ScyUGI?autoplay=1');
+          video[1].setAttribute ('src','https://www.youtube.com/embed/t-bq1ScyUGI?autoplay=1');
 }
 
 var result3 = document.getElementById("opt3");
@@ -177,28 +177,28 @@ function out3(){
         dispc.style.display = 'block';
         window.addEventListener('click', outsideClick4);
         modala.style.display = "none";
-        var mytry = video.getAttribute('src');
+        var mytry = video[0].getAttribute('src');
          if(correct === 1) {
-         video.setAttribute ('src','https://www.youtube.com/embed/xz3PbpPR6DY?autoplay=1');
+         video[0].setAttribute ('src','https://www.youtube.com/embed/xz3PbpPR6DY?autoplay=1');
          }    else if(correct ===2) {
-         video.setAttribute ('src','https://www.youtube.com/embed/0HgNdPOZyvQ?autoplay=1');
+         video[0].setAttribute ('src','https://www.youtube.com/embed/0HgNdPOZyvQ?autoplay=1');
         }
         else
-          video.setAttribute ('src','https://www.youtube.com/embed/h3uBr0CCm58?autoplay=1');
+          video[0].setAttribute ('src','https://www.youtube.com/embed/h3uBr0CCm58?autoplay=1');
 }
 function out4(){
         incorrect = incorrect + 1;
         dispi.style.display = 'block';
         window.addEventListener('click', outsideClick5);
         modala.style.display = "none";
-        var mytry = video.getAttribute('src');
+        var mytry = video[1].getAttribute('src');
          if(incorrect === 1) {
-         video.setAttribute ('src','https://www.youtube.com/embed/cVUbpTFkDdo?autoplay=1');
+         video[1].setAttribute ('src','https://www.youtube.com/embed/cVUbpTFkDdo?autoplay=1');
          }    else if(incorrect ===2) {
-         video.setAttribute ('src','https://www.youtube.com/embed/eVFd46qABi0?autoplay=1');
+         video[1].setAttribute ('src','https://www.youtube.com/embed/eVFd46qABi0?autoplay=1');
         }
         else
-          video.setAttribute ('src','https://www.youtube.com/embed/t-bq1ScyUGI?autoplay=1');
+          video[1].setAttribute ('src','https://www.youtube.com/embed/t-bq1ScyUGI?autoplay=1');
 }
 
 var result5 = document.getElementById("opt5");
@@ -234,26 +234,26 @@ function out5(){
         dispc.style.display = 'block';
         window.addEventListener('click', outsideClick4);
         modalb.style.display = "none";
-        var mytry = video.getAttribute('src');
+        var mytry = video[0].getAttribute('src');
          if(correct === 1) {
-         video.setAttribute ('src','https://www.youtube.com/embed/xz3PbpPR6DY?autoplay=1');
+         video[0].setAttribute ('src','https://www.youtube.com/embed/xz3PbpPR6DY?autoplay=1');
          }    else if(correct ===2) {
-         video.setAttribute ('src','https://www.youtube.com/embed/0HgNdPOZyvQ?autoplay=1');
+         video[0].setAttribute ('src','https://www.youtube.com/embed/0HgNdPOZyvQ?autoplay=1');
         }
         else
-          video.setAttribute ('src','https://www.youtube.com/embed/h3uBr0CCm58?autoplay=1');
+          video[0].setAttribute ('src','https://www.youtube.com/embed/h3uBr0CCm58?autoplay=1');
 }
 function out6(){
         incorrect = incorrect + 1;
         dispi.style.display = 'block';
         window.addEventListener('click', outsideClick5);
         modalb.style.display = "none";
-        var mytry = video.getAttribute('src');
+        var mytry = video[1].getAttribute('src');
          if(incorrect === 1) {
-         video.setAttribute ('src','https://www.youtube.com/embed/cVUbpTFkDdo?autoplay=1');
+         video[1].setAttribute ('src','https://www.youtube.com/embed/cVUbpTFkDdo?autoplay=1');
          }    else if(incorrect ===2) {
-         video.setAttribute ('src','https://www.youtube.com/embed/eVFd46qABi0?autoplay=1');
+         video[1].setAttribute ('src','https://www.youtube.com/embed/eVFd46qABi0?autoplay=1');
         }
         else
-          video.setAttribute ('src','https://www.youtube.com/embed/t-bq1ScyUGI?autoplay=1');
+          video[1].setAttribute ('src','https://www.youtube.com/embed/t-bq1ScyUGI?autoplay=1');
 }
