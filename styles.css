@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Rancho&effect=anaglyph|3d-float');
 @import url('https://fonts.googleapis.com/css?family=Rancho&effect=ice|3d-float');
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Permanent+Marker|Luckiest+Guy|Russo+One');
+
 html {
   background-color: #000000;
 }
@@ -56,3 +57,109 @@ html {
   margin-right: auto;
   align-content: middle;
 }
+.meme{
+  background-color: #FCA816;
+  cursor: pointer;
+  padding: 30px;
+  height: 200px;
+  width: 200px;
+  margin:75px 0px 0px 30px;
+  border: none;
+  border-radius:50%;
+  text-align: middle;
+  font-family: 'Luckiest Guy', cursive;
+  outline: none;
+  font-size: 35px;
+}
+.content{
+  display:none;
+  position: fixed;
+  z-index:1;
+  left: 0;
+  top:0;
+  height: 100%;
+  width:100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.8);
+}
+.page1{
+  background-color:#26E83F;
+  font-family: 'Russo One', sans-serif;
+  font-size: 35px;
+  margin: 10% auto;
+  width:100%;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+  animation-name:resopen;
+  animation-duration:1s;
+}
+.meme2{
+  background-color: #FCA816;
+  cursor: pointer;
+  padding: 30px;
+  height: 200px;
+  width: 200px;
+  margin:175px 220px 220px 230px;
+  border: none;
+  border-radius:50%;
+  text-align: middle;
+  font-family: 'Luckiest Guy', cursive;
+  outline: none;
+  font-size: 35px;
+}
+.content1{
+  display:none;
+  position: fixed;
+  z-index:1;
+  left: 0;
+  top:0;
+  height: 100%;
+  width:100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.8);
+}
+.page2{
+  background-color:#26E83F;
+  font-family: 'Russo One', sans-serif;
+  font-size: 35px;
+  margin: 10% auto;
+  width:100%;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+  animation-name:resopen;
+  animation-duration:1s;
+}
+.meme3{
+  background-color: #FCA816;
+  cursor: pointer;
+  padding: 30px;
+  height: 200px;
+  width: 200px;
+  margin:275px 330px 330px 300px;
+  border: none;
+  border-radius:50%;
+  text-align: middle;
+  font-family: 'Luckiest Guy', cursive;
+  outline: none;
+  font-size: 35px;
+}
+.content2{
+  display:none;
+  position: fixed;
+  z-index:1;
+  left: 0;
+  top:0;
+  height: 100%;
+  width:100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.8);
+}
+.page3{
+  background-color:#26E83F;
+  font-family: 'Russo One', sans-serif;
+  font-size: 35px;
+  margin: 10% auto;
+  width:100%;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+  animation-name:resopen;
+  animation-duration:1s;
+}
+
