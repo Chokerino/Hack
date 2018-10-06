@@ -1,4 +1,4 @@
-
+var count=0;
 var instruct = document.getElementById("insBtn");
 var pop = document.getElementById("Pg");
 
@@ -115,6 +115,7 @@ function outsideClick5(e){
 var correct =0;
 var incorrect =0;
 function out1(){
+        count = count + 1;
         correct = correct + 1;
         dispc.style.display = 'block';
         window.addEventListener('click', outsideClick4);
@@ -128,8 +129,10 @@ function out1(){
         else
           video[0].setAttribute ('src','https://www.youtube.com/embed/h3uBr0CCm58?autoplay=1');
 
+checkCount();
 }
 function out2(){
+        count = count + 1;
         incorrect = incorrect + 1;
         dispi.style.display = 'block';
         window.addEventListener('click', outsideClick5);
@@ -142,6 +145,7 @@ function out2(){
         }
         else
           video[1].setAttribute ('src','https://www.youtube.com/embed/t-bq1ScyUGI?autoplay=1');
+checkCount();
 }
 
 var result3 = document.getElementById("opt3");
@@ -173,6 +177,7 @@ window.onclick = function(event) {
 }
 
 function out3(){
+         count = count + 1;
          correct = correct + 1;
         dispc.style.display = 'block';
         window.addEventListener('click', outsideClick4);
@@ -185,8 +190,10 @@ function out3(){
         }
         else
           video[0].setAttribute ('src','https://www.youtube.com/embed/h3uBr0CCm58?autoplay=1');
+checkCount();
 }
 function out4(){
+        count = count + 1;
         incorrect = incorrect + 1;
         dispi.style.display = 'block';
         window.addEventListener('click', outsideClick5);
@@ -199,6 +206,7 @@ function out4(){
         }
         else
           video[1].setAttribute ('src','https://www.youtube.com/embed/t-bq1ScyUGI?autoplay=1');
+checkCount();
 }
 
 var result5 = document.getElementById("opt5");
@@ -230,6 +238,7 @@ window.onclick = function(event) {
 }
 
 function out5(){
+        count = count + 1;
         correct = correct + 1;
         dispc.style.display = 'block';
         window.addEventListener('click', outsideClick4);
@@ -241,9 +250,13 @@ function out5(){
          video[0].setAttribute ('src','https://www.youtube.com/embed/0HgNdPOZyvQ?autoplay=1');
         }
         else
-          video[0].setAttribute ('src','https://www.youtube.com/embed/h3uBr0CCm58?autoplay=1');
+            video[0].setAttribute ('src','https://www.youtube.com/embed/h3uBr0CCm58?autoplay=1');
+
+       checkCount();
 }
+
 function out6(){
+        count = count + 1;
         incorrect = incorrect + 1;
         dispi.style.display = 'block';
         window.addEventListener('click', outsideClick5);
@@ -251,9 +264,22 @@ function out6(){
         var mytry = video[1].getAttribute('src');
          if(incorrect === 1) {
          video[1].setAttribute ('src','https://www.youtube.com/embed/cVUbpTFkDdo?autoplay=1');
+         checkCount();
          }    else if(incorrect ===2) {
          video[1].setAttribute ('src','https://www.youtube.com/embed/eVFd46qABi0?autoplay=1');
+         
         }
         else
-          video[1].setAttribute ('src','https://www.youtube.com/embed/t-bq1ScyUGI?autoplay=1');
+         video[1].setAttribute ('src','https://www.youtube.com/embed/t-bq1ScyUGI?autoplay=1');
+        
+      checkCount();
+}
+var mm = document.getElementById("ch");
+
+function checkCount() {
+if(count>=5){
+    mm.style.display = 'block';
+    dispi.style.display = 'none';
+    dispc.style.display = 'none';
+}  
 }
